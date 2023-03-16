@@ -36,6 +36,19 @@ class HomeSinUsuario : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val detalleAlarmaAViewClick = findViewById<View>(R.id.view9)
+        detalleAlarmaAViewClick.setOnClickListener {
+            val intent = Intent(this, AlarmaDetalleUsuarioAnonimo::class.java)
+            startActivity(intent)
+        }
+
+        val detalleAlarmaBViewClick = findViewById<View>(R.id.view10)
+        detalleAlarmaBViewClick.setOnClickListener {
+            val intent = Intent(this, AlarmaDetalleUsuarioAnonimo::class.java)
+            startActivity(intent)
+        }
+
+
     }
 
 }

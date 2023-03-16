@@ -7,6 +7,19 @@
     android:background="@color/greyblack"
     tools:context=".TonoAlarmaUsuarioAnonimo">
 
+    <Button
+        android:id="@+id/ingresar89"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="108dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/bungee"
+        android:text="ACEPTAR"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <ImageButton
         android:id="@+id/back_main7"
         android:layout_width="wrap_content"
@@ -48,23 +61,23 @@
         android:id="@+id/textView84"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="196dp"
+        android:layout_marginBottom="192dp"
         android:fontFamily="@font/amaranth"
         android:text="Seleccionar musica al azar"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintHorizontal_bias="0.179"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Switch
         android:id="@+id/switch20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="196dp"
+        android:layout_marginBottom="184dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintHorizontal_bias="0.597"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
@@ -81,9 +94,12 @@
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="364dp"
         android:layout_height="231dp"
+        android:layout_marginBottom="232dp"
         android:background="@color/white"
         android:filterTouchesWhenObscured="true"
-        tools:itemCount="10"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="268dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:itemCount="10" />
 </androidx.constraintlayout.widget.ConstraintLayout>

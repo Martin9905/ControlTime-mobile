@@ -30,10 +30,15 @@ class CrearAlarmaUsuarioAnonimo : AppCompatActivity() {
             startActivity(intent)
         }
 
-
         val bloquearViewClick = findViewById<Button>(R.id.button2)
         bloquearViewClick.setOnClickListener {
             val intent = Intent(this, AplicacionesABloquearUsuarioAnonimo::class.java)
+            startActivity(intent)
+        }
+
+        val tonoViewClick = findViewById<Button>(R.id.tono)
+        tonoViewClick.setOnClickListener {
+            val intent = Intent(this, TonoAlarmaUsuarioAnonimo::class.java)
             startActivity(intent)
         }
 

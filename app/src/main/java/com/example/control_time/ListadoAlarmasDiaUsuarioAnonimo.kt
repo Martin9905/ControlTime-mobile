@@ -24,6 +24,23 @@ class ListadoAlarmasDiaUsuarioAnonimo : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val detalleAlarmaAViewClick = findViewById<View>(R.id.view21)
+        detalleAlarmaAViewClick.setOnClickListener {
+            val intent = Intent(this, AlarmaDetalleUsuarioAnonimo::class.java)
+            startActivity(intent)
+        }
+
+        val detalleAlarmaBViewClick = findViewById<View>(R.id.view28)
+        detalleAlarmaBViewClick.setOnClickListener {
+            val intent = Intent(this, AlarmaDetalleUsuarioAnonimo::class.java)
+            startActivity(intent)
+        }
+
+        val detalleAlarmaCViewClick = findViewById<View>(R.id.view29)
+        detalleAlarmaCViewClick.setOnClickListener {
+            val intent = Intent(this, AlarmaDetalleUsuarioAnonimo::class.java)
+            startActivity(intent)
+        }
 
     }
 
