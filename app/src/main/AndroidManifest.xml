@@ -13,6 +13,27 @@
         android:theme="@style/Theme.Controltime"
         tools:targetApi="31">
         <activity
+            android:name=".EstablecerFechaUsuarioAnonimo"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AplicacionesABloquearUsuarioAnonimo"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".TonoAlarmaSinUsuario"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".CrearAlarmaUsuarioAnonimo"
             android:exported="false">
             <meta-data
