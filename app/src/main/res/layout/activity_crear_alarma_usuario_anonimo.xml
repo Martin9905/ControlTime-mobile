@@ -241,7 +241,7 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintHorizontal_bias="0.149"
         app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
@@ -261,7 +261,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="213dp"
+        android:layout_width="186dp"
         android:layout_height="49dp"
         android:layout_marginBottom="668dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -333,16 +333,22 @@
         android:id="@+id/imageButton"
         android:layout_width="41dp"
         android:layout_height="41dp"
-        app:srcCompat="@android:drawable/ic_menu_my_calendar"
-        tools:layout_editor_absoluteX="404dp"
-        tools:layout_editor_absoluteY="148dp" />
+        android:layout_marginBottom="604dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.961"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_my_calendar" />
 
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="330dp"
         android:layout_height="36dp"
-        app:srcCompat="@drawable/image__20_"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="192dp" />
+        android:layout_marginBottom="580dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/image__20_" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
