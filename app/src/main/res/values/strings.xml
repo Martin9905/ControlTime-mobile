@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Control-time</string>
+
+    <string name="menu_notificaciones">Notificaciones</string>
+    <string name="menu_modo_oscuro">Modo Oscuro</string>
+    <string name="menu_salir">Salir</string>
+    <string name="title_activity_menu_usuario_aactivity">MenuUsuarioAActivity</string>
+</resources>
