@@ -392,5 +392,12 @@
         app:layout_constraintHorizontal_bias="0.887"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="413dp"
+        android:layout_height="43dp"
+        android:background="@color/aquamarine"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
