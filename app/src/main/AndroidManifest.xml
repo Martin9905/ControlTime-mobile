@@ -13,6 +13,20 @@
         android:theme="@style/Theme.Controltime"
         tools:targetApi="31">
         <activity
+            android:name=".CrearCategoriaActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CategoriaDetalleActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".CategoriaActivity"
             android:exported="false">
             <meta-data
